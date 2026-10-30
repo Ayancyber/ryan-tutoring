@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none">
+  <!-- Red Glow Filter -->
+  <defs>
+    <filter id="redGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- The Icon with Glow -->
+  <g filter="url(#redGlow)">
+    <!-- Outer Circle -->
+    <circle cx="12" cy="12" r="10" stroke="#ef4444" stroke-width="1.5" />
+    
+    <!-- Inner Cross (X) -->
+    <path d="M8 8L16 16M16 8L8 16" stroke="#ef4444" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="24" height="24">
+  <defs>
+    <!-- The Official Instagram Radial Gradient -->
+    <radialGradient id="insta-official" cx="30%" cy="107%" r="150%" fx="30%" fy="107%">
+      <stop offset="0%" stop-color="#fdf497" />
+      <stop offset="5%" stop-color="#fdf497" />
+      <stop offset="45%" stop-color="#fd5949" />
+      <stop offset="60%" stop-color="#d6249f" />
+      <stop offset="90%" stop-color="#285AEB" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background Gradient Rounded Square -->
+  <rect width="48" height="48" rx="12" fill="url(#insta-official)" />
+
+  <!-- Solid White Lines for the Camera -->
+  <g fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Outer Camera Body -->
+    <rect x="10" y="10" width="28" height="28" rx="8" />
+    <!-- Center Lens Circle -->
+    <circle cx="24" cy="24" r="7" />
+  </g>
+
+  <!-- Top Right Flash Dot (Solid White) -->
+  <circle cx="34" cy="14" r="2" fill="#FFFFFF" />
+</svg>
