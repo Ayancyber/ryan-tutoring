@@ -1,16 +1,20 @@
-# React + Vite
+# Ryan Tutoring Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive single-page application for an English tutoring business. Built from scratch to practice React and Tailwind CSS.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- Fully responsive design (Mobile & Desktop)
+- Smooth scroll animations using Framer Motion
+- Interactive mobile sidebar menu
+- Integrated Cal.com booking system
+- Custom SVG icons and graphics
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tech Stack
+- **React** (Vite)
+- **Tailwind CSS v4**
+- **Framer Motion** (Animations)
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 💻 How to Run Locally
+1. Clone this repository: `git clone https://github.com/Ayancyber/ryan-tutoring.git`
+2. Install dependencies: `npm install`
+3. Start the development server: `npm run dev`
